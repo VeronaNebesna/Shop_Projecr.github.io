@@ -1,0 +1,22 @@
+.page_product{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(255,255,255);
+    margin-top:50px;
+    padding:10px 15px;
+}
+.description_of_item{
+    color:rgb(255,255,255);
+    font-size:23px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.title_of_item{
+    font-size: 25px;
+    color: rgb(17, 19, 104);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.type_of_product{
+    text-transform: uppercase;
+}

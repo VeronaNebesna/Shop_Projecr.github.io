@@ -1,0 +1,12 @@
+.products-price,.products-count {
+	color:black;
+	font-size: 17px;
+	margin:5px 0;
+}
+.cart a{
+	display: block;
+	color:rgb(4, 3, 20);
+	text-decoration: none;
+	padding-top:10px;
+	
+}
