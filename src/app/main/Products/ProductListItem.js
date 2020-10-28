@@ -43,7 +43,7 @@ class ProductListItem extends Component{
                    <img src={image} alt=""/>
                 </div>
                 <button className = "like_button" onClick={()=> isLiked ? removeLike(id): addLike(id)}>
-                    {isLiked ?  <span><img src="../images/products/icon (5).png"/></span> :  <span><img src="../images/products/icon (7).png"/></span>}
+                    {isLiked ?  <span><img src="images/products/icon (5).png"/></span> :  <span><img src="images/products/icon (7).png"/></span>}
                 </button>
                 <h2 className="product-title">
                     <Link to={`/products/${id}`}>{name}</Link>

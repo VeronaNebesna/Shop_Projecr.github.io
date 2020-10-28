@@ -21,7 +21,7 @@ const CartProductListItemExtended = ({
                         <span> {product.name} </span> 
                     </p>
                     <button className="like_btn">
-                    {isLiked ?  <span><img src="../images/products/icon (5).png"/></span> :  <span><img src="../images/products/icon (7).png"/></span>}
+                    {isLiked ?  <span><img src="images/products/icon (5).png"/></span> :  <span><img src="images/products/icon (7).png"/></span>}
                 </button>
                     <p className="cart-extended-price">
                          Price for one item: <span className="bold">$ {product.price} </span> 
