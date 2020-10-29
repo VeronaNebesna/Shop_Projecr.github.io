@@ -5,7 +5,7 @@ import ProductsData from "./ProductsData"
 
 const ProductsList =() =>{
     return(
-        <div>
+        <>
             <h1 className = "page-title">Products List</h1>
             <div className="row">
                 {
@@ -37,7 +37,7 @@ const ProductsList =() =>{
                 }
                 
             </div>
-        </div>
+        </>
     )
 }
 
