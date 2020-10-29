@@ -35,7 +35,8 @@ class ProductListItem extends Component{
             isLiked=false,
             addLike,
             removeLike,
-            addProductsInCart
+            addProductsInCart,
+            screen_size
         }= this.props;
         return(
             <div className = "product-list-item">
@@ -49,8 +50,9 @@ class ProductListItem extends Component{
                     <Link to={`/products/${id}`}>{name}</Link>
                     </h2>
                 <div className="product-description">{description}</div>
-                <div className="product-features">Type: {type}</div>
-                <div className="product-capacity">Capacity: {capacity}Gb</div>
+                <div className="product-features"><b>Type: </b> {type}</div>
+                <div className="product-capacity"><b>Capacity: </b> {capacity}Gb</div>
+                <div className="product-screen"><b>Screen size:</b> {screen_size}</div>
                 <div className="product-price">${price}</div>
                <Quantity
                     productCount={this.state.productCount}

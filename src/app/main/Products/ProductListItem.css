@@ -18,13 +18,15 @@
     font-weight: 300;
     margin-bottom: 15px;
 }
-.product-features {
-    font-weight: bold;
+.product-features b, .product-capacity b, .product-screen b{
+    font-weight:600;
     text-transform: uppercase;
     margin-bottom: 15px;
-
+    
 }
-
+.product-features , .product-capacity, .product-screen {
+    padding-bottom: 10px;
+}
 .btn-add-to-cart {
     text-transform: uppercase;
     font-size: 21px;
@@ -45,6 +47,7 @@
     font-size: 36px;
     text-align: center;
     margin: 15px 0;
+    font-weight: 600;
 }
 .product-image{
     background-color: rgba(255,255,255,0.75);
@@ -96,7 +99,7 @@ button:disabled{
     font-size:20px;
     position: absolute;
     top:20px;
-    left:20px;
+    right:20px;
     background-color: rgba(255,255,255,0);
     border:0;
 }

@@ -17,6 +17,7 @@ const ProductsList =() =>{
                      capacity,
                      type,
                      image,
+                     screen_size
                  })=>(
                     <div className="col-lg-6" key={id}>
                         <ProductListItem
@@ -27,6 +28,7 @@ const ProductsList =() =>{
                         price = {price}
                         image={image}
                         id={id}
+                        screen_size={screen_size}
                         />
                     </div>  
                 
