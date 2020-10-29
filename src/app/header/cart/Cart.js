@@ -13,12 +13,9 @@ const Cart =  ({
         }) => {
         return (
             <div className="cart text-center">
-                
-                {/* верх */}
                 <CartProductsList productInCart={productInCart}/>
-
                 <div>
-                <CartTotal  productInCart ={ productInCart}/>
+                    <CartTotal  productInCart ={ productInCart}/>
                 </div>
                 <Link to="/cart">Show cart</Link>
             </div>
